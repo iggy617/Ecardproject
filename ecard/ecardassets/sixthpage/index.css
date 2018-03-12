@@ -1,0 +1,171 @@
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#First_page {
+    display: none;
+}
+
+#Flag {
+    display: none;
+}
+
+#Title {
+    display: none;
+}
+
+#Tomato_3_ {
+    display: none;
+}
+
+#Tomato {
+    cursor:pointer;
+}
+
+#Forward_Button_2_ {
+    display: none;
+}
+
+#Forward_Button_5_ {
+    cursor:pointer;
+}
+
+#fact1 {
+    opacity: 0;
+}
+
+.facts {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    bottom: 380px;
+    width: 800px;
+    left: 0px;
+    right: 0px;
+}
+
+.lastfact {
+    opacity: 1;
+    position: absolute;
+    color:white;
+    font-size: 1.5em;
+    bottom: 850px;
+    left: 450px;
+    width: 600px;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#Second_Page {
+    display: none;
+}
+
+#Third_Page {
+    display: none;
+}
+
+#Fourth_Page {
+    display: none;
+}
+
+#Fifth_Page {
+    display: none;
+}
+
+#Sixth_Page {
+    display: block;
+}
+
+#fact8 {
+    opacity: 0;
+    animation: 0;
+}
+
+#fact9 {
+    opacity: 0;
+    animation: 0;
+}
+
+#fact10 {
+    opacity: 0;
+    animation: 0;
+}
+
+
+@keyframes fade-animation {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fade-animation {
+    opacity: 1;
+    animation: fade-animation 3s 1;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    animation-timing-function:linear;
+}
+
+.fadein {
+    opacity: 1;
+    animation: fadein 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    animation-timing-function:linear;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+
+#Barcelona {
+    opacity: 0;
+}
+#Valencia{
+    opacity: 0;
+}
+#Benidorm{
+    opacity: 0; 
+}
+#Madrid{
+    opacity: 0;
+}
+#Malaga{
+    opacity: 0;
+}
+#Bunol {
+    opacity: 1;
+}
+
+#spain {
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+

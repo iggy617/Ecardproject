@@ -1,0 +1,91 @@
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#First_page {
+    display: none;
+}
+
+#Flag {
+    display: none;
+}
+
+#Title {
+    display: none;
+}
+
+#Tomato_1_ {
+    cursor: pointer;
+}
+
+#Tomato_3_ {
+    display: none;
+}
+
+#fact2 {
+    opacity: 0;
+    animation: 0;
+}
+
+
+@keyframes fade-animation {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fade-animation {
+    animation: fade-animation 3s 1;
+}
+
+
+.facts {
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    bottom: 380px;
+    width: 800px;
+    left: 0px;
+    right: 0px;
+}
+
+
+#Forward_Button_2_ {
+
+}
+
+#Forward_Button {
+    cursor: pointer;
+}
+
+#Second_Page {
+    display: block;
+}
+
+#SpainTitle {
+    opacity: 0;
+}
+
+#Third_Page {
+    display: none;
+}
+
+#Fourth_Page {
+    display: none;
+}
+
+#Fifth_Page {
+    display: none;
+}
+
+#Sixth_Page {
+    display: none;
+}

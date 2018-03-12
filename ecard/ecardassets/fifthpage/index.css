@@ -1,0 +1,86 @@
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#First_Page {
+    display: none;
+}
+
+.facts {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    bottom: 380px;
+    width: 800px;
+    left: 0px;
+    right: 0px;
+}
+
+#fact5 {
+    opacity: 0;
+    animation: 0;
+}
+
+
+@keyframes fade-animation {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fade-animation {
+    animation: fade-animation 3s 1;
+}
+
+#fact6 {
+    opacity: 0;
+}
+
+#fact7 {
+    opacity: 0;
+}
+
+#Second_Page {
+    display: none;
+}
+
+#Third_Page {
+    display: none;
+}
+
+#Fourth_Page {
+    display: none;
+}
+
+#Fifth_Page {
+    display: block;
+}
+
+#Forward_Button_3_ {
+    cursor:pointer;
+}
+
+#Sign {
+    cursor:pointer;
+    height: 3000px;
+}
+
+#Mountain_Tops {
+    cursor:pointer;
+}
+
+
+#Sun_1_ {
+    cursor:pointer;
+}
+
+#Sixth_Page {
+    display: none;
+}

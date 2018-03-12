@@ -1,0 +1,84 @@
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#First_Page {
+    display: none;
+}
+
+#fact4 {
+    opacity: 0;
+}
+
+.facts {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    bottom: 380px;
+    width: 800px;
+    left: 0px;
+    right: 0px;
+}
+
+
+#Second_Page {
+    display: none;
+}
+
+#Third_Page {
+    display: none;
+}
+
+#Forward_Button_1_ {
+    display: block;
+    cursor:pointer;
+}
+
+#Ham {
+    cursor:pointer;
+}
+
+#Fourth_Page {
+    display: block;
+}
+
+#Tomatina_Truck {
+    display: block;
+}
+
+#Tomato_2_ {
+    cursor: pointer;
+    display: block;
+    animation: 0;
+}
+
+
+@keyframes fade-animation {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fade-animation {
+    animation: fade-animation 3s 1;
+}
+
+
+#Layer_7 {
+    display: block;
+}
+
+#Fifth_Page {
+    display: none;
+}
+
+#Sixth_Page {
+    display: none;
+}
